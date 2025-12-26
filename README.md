@@ -20,19 +20,8 @@ Supports:
 * Dry-run mode (no filesystem changes)
 * Clear logging & execution summary
 
-## Project Structure
-project/
-│
-├── main.py
-├── config.json
-├── zip.log (after compile)
-├── TestZip
-└── utils/
-    ├── config_loader.py
-    ├── logging_setup.py
-    └── zip_tool.py
 
-Configuration (config.json)
+## Configuration (config.json)
 ```json
 {
   "target_path": "...",
