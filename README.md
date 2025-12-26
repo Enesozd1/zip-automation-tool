@@ -10,7 +10,7 @@ Recursive zipping
 Robust error handling & logging
 Built with Python’s standard library (pathlib, zipfile, logging).
 
-##Features
+## Features
 
 * Batch ZIP creation
 * Two zip modes:
@@ -47,7 +47,7 @@ Configuration (config.json)
 }
 ```
 
-##Configuration options
+## Configuration options
 *target_path - Folder to scan and zip
 *output_path - Where zip files are created (empty = target_path)
 *zip_mode	- "per_folder" or "single_archive"
@@ -58,7 +58,7 @@ Configuration (config.json)
 *log_file -	Log file name
 *log_level - Logging level (INFO, DEBUG, etc.)
 
-##Mode behavior
+## Mode behavior
 zip_mode = "single_archive"
 *One ZIP file is created
 *Root files are always included
@@ -70,7 +70,7 @@ zip_mode = "per_folder"
    -ignore → skipped
    -separate_zip → zipped into root_files.zip
 
-##How to Run
+## How to Run
 *Edit config.json
 *Run: python main.py
 
