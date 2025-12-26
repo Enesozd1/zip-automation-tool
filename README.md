@@ -20,7 +20,7 @@ Built with Python’s standard library (pathlib, zipfile, logging).
 * Dry-run mode (no filesystem changes)
 * Clear logging & execution summary
 
-Project Structure
+## Project Structure
 project/
 │
 ├── main.py
