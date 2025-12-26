@@ -48,15 +48,15 @@ Configuration (config.json)
 ```
 
 ## Configuration options
-*target_path - Folder to scan and zip
-*output_path - Where zip files are created (empty = target_path)
-*zip_mode	- "per_folder" or "single_archive"
-*single_archive_name -	Name of the zip when using single_archive
-*include_root_files -	"ignore" or "separate_zip" (used only in per_folder mode)
-*recursive - Include subfolders recursively
-*dry_run - Log actions without creating zip files
-*log_file -	Log file name
-*log_level - Logging level (INFO, DEBUG, etc.)
+* target_path - Folder to scan and zip
+* output_path - Where zip files are created (empty = target_path)
+* zip_mode	- "per_folder" or "single_archive"
+* single_archive_name -	Name of the zip when using single_archive
+* include_root_files -	"ignore" or "separate_zip" (used only in per_folder mode)
+* recursive - Include subfolders recursively
+* dry_run - Log actions without creating zip files
+* log_file -	Log file name
+* log_level - Logging level (INFO, DEBUG, etc.)
 
 ## Mode behavior
 zip_mode = "single_archive"
