@@ -1,0 +1,15 @@
+{
+  "target_path": "TestZip",
+  "output_path": "",
+
+  "zip_mode": "per_folder",
+  "single_archive_name": "single_archive.zip",
+
+  "include_root_files": "ignore",
+
+  "recursive": false,
+  "dry_run": false,
+
+  "log_file": "zip.log",
+  "log_level": "INFO"
+}
