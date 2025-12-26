@@ -3,12 +3,12 @@ Configurable Python tool for safe batch ZIP creation with dry-run and logging su
 
 
 Supports:
-Per-folder ZIP creation
-Single-archive ZIP creation
-Dry-run mode
-Recursive zipping
-Robust error handling & logging
-Built with Python’s standard library (pathlib, zipfile, logging).
+* Per-folder ZIP creation
+* Single-archive ZIP creation
+* Dry-run mode
+* Recursive zipping
+* Robust error handling & logging
+* Built with Python’s standard library (pathlib, zipfile, logging).
 
 ## Features
 
@@ -60,22 +60,21 @@ Configuration (config.json)
 
 ## Mode behavior
 zip_mode = "single_archive"
-*One ZIP file is created
-*Root files are always included
-*Folder structure is preserved inside the archive
+* One ZIP file is created
+* Root files are always included
+* Folder structure is preserved inside the archive
 
 zip_mode = "per_folder"
-*One ZIP per subfolder
--Root files:
-   -ignore → skipped
-   -separate_zip → zipped into root_files.zip
+* One ZIP per subfolder
+- Root files:
+   - ignore → skipped
+   - separate_zip → zipped into root_files.zip
 
 ## How to Run
-*Edit config.json
-*Run: python main.py
+* Edit config.json
+* Run: python main.py
 
 Check:
-*ZIP output directory
-*zip.log for details and summary
+* ZIP output directory
+* zip.log for details and summary
 
-zip.log for details and summary
